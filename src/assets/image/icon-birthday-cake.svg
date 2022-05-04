@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12"
+   height="12"
+   viewBox="0 0 24 24.000001"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Icon awesome-birthday-cake.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2400"
+     inkscape:window-height="1271"
+     id="namedview5"
+     showgrid="true"
+     inkscape:zoom="32.095518"
+     inkscape:cx="11.920228"
+     inkscape:cy="14.403678"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3">
+    <inkscape:grid
+       type="xygrid"
+       id="grid834" />
+  </sodipodi:namedview>
+  <path
+     id="Icon_awesome-birthday-cake"
+     data-name="Icon awesome-birthday-cake"
+     d="m 21.624174,17.5003 c -1.203174,0 -1.342741,-1.375225 -3.201641,-1.375225 -1.858901,0 -2.011704,1.375225 -3.212469,1.375225 -1.200766,0 -1.351163,-1.375225 -3.211267,-1.375225 -1.840853,0 -2.0285479,1.375225 -3.2016406,1.375225 -1.2091879,0 -1.3403336,-1.375225 -3.2124694,-1.375225 -1.8721356,0 -2.008094,1.375225 -3.211266,1.375225 V 14.062838 A 2.06344,2.06344 0 0 1 4.4356579,12.000602 H 5.1226691 V 5.8126878 H 7.8731203 V 12.000602 H 10.623572 V 5.8126878 h 2.750451 v 6.1879142 h 2.750451 V 5.8126878 h 2.750452 v 6.1879142 h 0.687011 a 2.06344,2.06344 0 0 1 2.062237,2.062236 z m 0,5.4997 H 2.373421 v -4.124473 c 1.8625103,0 2.0092973,-1.375227 3.2124694,-1.375227 1.203172,0 1.3427399,1.375227 3.2124691,1.375227 1.8408535,0 2.0285485,-1.375227 3.2016405,-1.375227 1.209188,0 1.340334,1.375227 3.21247,1.375227 1.872135,0 2.009297,-1.375227 3.212469,-1.375227 1.181515,0 1.34274,1.375227 3.20164,1.375227 z M 6.4990978,5.1256766 A 1.370413,1.370413 0 0 1 5.1238722,3.750451 c 0,-1.3319114 1.3752256,-0.9878042 1.3752256,-2.75045115 0.5161609,0 1.3752258,1.26814325 1.3752258,2.40634395 0,1.1382007 -0.6124147,1.7193328 -1.3752258,1.7193328 z m 5.4996992,0 A 1.370413,1.370413 0 0 1 10.623572,3.750451 c 0,-1.3319114 1.375225,-0.9890074 1.375225,-2.75045115 0.516161,0 1.375226,1.26814325 1.375226,2.40634395 0,1.1382007 -0.612415,1.7193328 -1.375226,1.7193328 z m 5.499699,0 A 1.370413,1.370413 0 0 1 16.123271,3.750451 c 0,-1.3319114 1.375225,-0.9878042 1.375225,-2.75045115 0.516161,0 1.375225,1.26814325 1.375225,2.40634395 0,1.1382007 -0.612414,1.7193328 -1.375225,1.7193328 z"
+     fill="#57606f"
+     style="stroke-width:1.20317" />
+</svg>

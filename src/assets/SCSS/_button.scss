@@ -1,0 +1,28 @@
+.home-page {
+    &__search-btn {
+        max-width: 40px;
+        height: 30px;
+        font-size: 7px;
+        border: none;
+        outline: none;
+        background: none;
+        margin-top: 10%;
+        color: $text-color-second;
+
+        &--changeColor {
+            color: $icon-color-first;
+            max-width: 40px;
+            height: 30px;
+            font-size: 7px;
+            border: none;
+            outline: none;
+            background: none;
+            margin-top: 10%;
+            cursor: pointer;
+        }
+
+        .material-icons {
+            font-size: 40px;
+        }
+    }
+}

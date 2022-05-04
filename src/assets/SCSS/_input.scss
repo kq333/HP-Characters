@@ -1,0 +1,26 @@
+.home-page {
+    &__input {
+        width: 99%;
+        height: 49px;
+        border-radius: 8px;
+        border: none;
+        text-indent: 10px;
+        color: $text-color-second;
+        font-family: "Ubuntu";
+        background: $background-color-second;
+
+
+    }
+    input:focus {
+        outline: none;
+    }
+
+    *:focus {
+        outline: none;
+    }
+
+    ::placeholder {
+        color: $text-color-second;
+        font-family: "Ubuntu";
+    }
+}

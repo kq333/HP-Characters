@@ -1,0 +1,67 @@
+@import '../SCSS/_colors.scss';
+
+.home-page {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+
+    &__header{
+
+        margin-top: 80px;
+
+        @media (max-width:768px){
+            margin-top: 30px;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 700;
+            color:$text-color;
+
+            @media (max-width:768px){
+                font-size: 2rem;
+
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 1.5rem;
+            opacity:1;
+            color:$text-color;
+            margin-top:24px;
+        }
+    }
+
+    &__inputs {
+        max-width: 100%;
+        display: flex;
+        gap: 5px;
+        padding: 5px;
+        margin-top:32px;
+    }
+
+    &__number-items {
+        padding: 5px;
+        color:$header-color;
+        opacity: 1;
+        font-size: 1rem;
+        margin-top:48px;
+    }
+
+    &__input-tag {
+        max-width: 950px;
+        width: 100%;
+    }
+
+    &__content-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 10px;
+        padding: 5px;
+
+    }
+
+
+}

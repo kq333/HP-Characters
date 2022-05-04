@@ -1,0 +1,65 @@
+@import "../SCSS/_colors.scss";
+
+.character-card {
+    &__card {
+        background-color: $background-color-second;
+        height: auto;
+        text-align: center;
+        max-width: 320px;
+        width: 100%;
+        border-radius: 6px;
+        margin: auto;
+    }
+
+    &__name {
+        font-weight: 700;
+        color: $text-color-third;
+    }
+
+    &__image {
+        text-align: center;
+        margin-top: 10px;
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid $icon-color-first !important;
+            object-fit: cover;
+            margin-top: 15px;
+        }
+    }
+
+    &__day-of-birth {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        padding: 5px;
+        color: $text-color;
+        opacity: 1;
+
+        &:before {
+            content: url("../image/icon-birthday-cake.svg");
+            margin-right: 5px;
+        }
+    }
+
+    &__character-house {
+        padding: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        color: $text-color;
+        opacity: 1;
+
+        &:before {
+            width: 12px;
+            height: 12px;
+            background-color: $icon-color-first;
+            display: inline-block;
+            content: "";
+            opacity: 1;
+            border-radius: 4px;
+            margin-right: 4px;
+        }
+    }
+}

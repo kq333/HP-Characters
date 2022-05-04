@@ -1,0 +1,211 @@
+.character-card__card {
+  background-color: #FFFFFF;
+  height: auto;
+  text-align: center;
+  max-width: 320px;
+  width: 100%;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.character-card__name {
+  font-weight: 700;
+  color: #2F3542;
+}
+
+.character-card__image {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.character-card__image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #740001 !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 15px;
+}
+
+.character-card__day-of-birth {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+  color: #57606F;
+  opacity: 1;
+}
+
+.character-card__day-of-birth:before {
+  content: url("../image/icon-birthday-cake.svg");
+  margin-right: 5px;
+}
+
+.character-card__character-house {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #57606F;
+  opacity: 1;
+}
+
+.character-card__character-house:before {
+  width: 12px;
+  height: 12px;
+  background-color: #740001;
+  display: inline-block;
+  content: "";
+  opacity: 1;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.home-page {
+  max-width: 1000px;
+  height: 100vh;
+  margin: auto;
+}
+
+.home-page__header {
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .home-page__header {
+    margin-top: 30px;
+  }
+}
+
+.home-page__header h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #57606F;
+}
+
+@media (max-width: 768px) {
+  .home-page__header h1 {
+    font-size: 2rem;
+  }
+}
+
+.home-page__header p {
+  text-align: center;
+  font-size: 1.5rem;
+  opacity: 1;
+  color: #57606F;
+  margin-top: 24px;
+}
+
+.home-page__inputs {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  margin-top: 32px;
+}
+
+.home-page__number-items {
+  padding: 5px;
+  color: #A4B0BE;
+  opacity: 1;
+  font-size: 1rem;
+  margin-top: 48px;
+}
+
+.home-page__input-tag {
+  max-width: 950px;
+  width: 100%;
+}
+
+.home-page__content-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(290px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 10px;
+  padding: 5px;
+}
+
+.home-page__search-btn {
+  max-width: 40px;
+  height: 30px;
+  font-size: 7px;
+  border: none;
+  outline: none;
+  background: none;
+  margin-top: 10%;
+  color: #747D8C;
+}
+
+.home-page__search-btn--changeColor {
+  color: #740001;
+  max-width: 40px;
+  height: 30px;
+  font-size: 7px;
+  border: none;
+  outline: none;
+  background: none;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.home-page__search-btn .material-icons {
+  font-size: 40px;
+}
+
+.home-page__input {
+  width: 99%;
+  height: 49px;
+  border-radius: 8px;
+  border: none;
+  text-indent: 10px;
+  color: #747D8C;
+  font-family: "Ubuntu";
+  background: #FFFFFF;
+}
+
+.home-page input:focus {
+  outline: none;
+}
+
+.home-page *:focus {
+  outline: none;
+}
+
+.home-page ::-webkit-input-placeholder {
+  color: #747D8C;
+  font-family: "Ubuntu";
+}
+
+.home-page :-ms-input-placeholder {
+  color: #747D8C;
+  font-family: "Ubuntu";
+}
+
+.home-page ::-ms-input-placeholder {
+  color: #747D8C;
+  font-family: "Ubuntu";
+}
+
+.home-page ::placeholder {
+  color: #747D8C;
+  font-family: "Ubuntu";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu";
+  font-size: 20px;
+  background-color: #F9F8F6;
+}
+/*# sourceMappingURL=main.css.map */
