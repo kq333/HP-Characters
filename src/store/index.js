@@ -129,7 +129,7 @@ export default createStore({
     async getValue({ commit }) {
       try {
         const fetchData = await axios.get(
-          "https://api.jsonbin.io/b/626e8dff019db46796941cf2"
+          "https://hp-api.herokuapp.com/api/characters"
         );
 
         commit("ADD_FETCHED_DATA", fetchData.data.slice(0, 33));
